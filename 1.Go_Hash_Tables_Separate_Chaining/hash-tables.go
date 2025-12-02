@@ -115,5 +115,11 @@ func main() {
 		testTable.Insert(v)
 	}
 
-	fmt.Println(testTable)
+	fmt.Println(testTable.array[0].head)
+	fmt.Println(testTable.array[1].head)
+	fmt.Println(testTable.array[2].head)
+	fmt.Println(testTable.array[3].head)
+	fmt.Println(testTable.array[4].head)
+	fmt.Println(testTable.array[5].head)
+	fmt.Println(testTable.array[6].head)
 }
